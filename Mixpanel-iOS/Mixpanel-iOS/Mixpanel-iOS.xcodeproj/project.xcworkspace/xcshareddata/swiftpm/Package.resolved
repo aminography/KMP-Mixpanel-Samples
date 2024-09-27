@@ -1,0 +1,24 @@
+{
+  "originHash" : "2451422911500e184e7f57db93f608afd3719bca5058a51b4a622de0ce09f3b5",
+  "pins" : [
+    {
+      "identity" : "kmp-mixpanel-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aminography/KMP-Mixpanel-iOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d62c1b0c137cf21a455304a958b479625a23ca3a"
+      }
+    },
+    {
+      "identity" : "mixpanel-iphone",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mixpanel/mixpanel-iphone",
+      "state" : {
+        "revision" : "4a2341c797bf2d7da077b18e37922a428e13e52a",
+        "version" : "5.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
