@@ -1,0 +1,24 @@
+{
+  "originHash" : "6f72045c89b8d6da0b72b6f297906a9094e24153f79a0175c3604282c342facd",
+  "pins" : [
+    {
+      "identity" : "mixpanel-iphone",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mixpanel/mixpanel-iphone",
+      "state" : {
+        "revision" : "8fc7115d3294a29ded42926301d5d45c417d8113",
+        "version" : "5.0.7"
+      }
+    },
+    {
+      "identity" : "yousee-kmp-apple-umbrellaklib",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/YouSee/youSee-KMP-Apple-umbrellaKlib/",
+      "state" : {
+        "branch" : "v0.1.1",
+        "revision" : "666438d488e0ded96f50b83c062742a2361d71f7"
+      }
+    }
+  ],
+  "version" : 3
+}

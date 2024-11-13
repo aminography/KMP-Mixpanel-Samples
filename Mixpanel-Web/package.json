@@ -6,11 +6,12 @@
         "node": ">=14 <21"
     },
     "dependencies": {
-        "foundation-mixpanelLib": "https://github.com/aminography/KMP-Mixpanel-Web/raw/refs/heads/main/foundation-mixpanelLib-1.0.0.tgz",
+        "@yousee/umbrellaklib": "0.1.1",
         "react": "^18.2.0",
         "react-scripts": "5.0.1",
         "react-bootstrap": "^2.10.4",
-        "bootstrap": "^5.3.3"
+        "bootstrap": "^5.3.3",
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
     },
     "scripts": {
         "start": "react-scripts start",

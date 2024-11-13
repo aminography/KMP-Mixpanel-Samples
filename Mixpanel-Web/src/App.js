@@ -4,12 +4,19 @@ import {
 
 import React, { useState } from 'react'
 
-import MixpanelLib from 'foundation-mixpanelLib';
-const NS = MixpanelLib.com.aminography.kmp
+const diKlib = require('@yousee/umbrellaklib').dk.yousee.kmp.di
+const mixpanelKlib = require('@yousee/umbrellaklib').dk.yousee.kmp.mixpanel
 
 function App() {
-    const mixpanel = NS.mixpanel.createMixpanelDelegate('a4e433e173bfbbc0e0784fc22539b790')
-    
+    diKlib.start()
+    mixpanelKlib.di.MixpanelModule.load()
+
+    const mixpanel = mixpanelKlib.di.MIXPANEL_DELEGATE.resolve()
+
+    return ContentView(mixpanel)
+}
+
+function ContentView(mixpanel) {
     const [counter, setCounter] = useState(1)
 
     const onTrackClicked = () => {

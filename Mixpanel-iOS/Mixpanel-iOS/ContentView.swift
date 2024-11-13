@@ -1,12 +1,5 @@
-//
-//  ContentView.swift
-//  Mixpanel-iOS
-//
-//  Created by Amin on 27/09/2024.
-//
-
 import SwiftUI
-import mixpanelLib
+import umbrellaKlib
 
 struct ContentView: View {
     
@@ -33,7 +26,7 @@ extension ContentView {
     @MainActor
     class ViewModel: ObservableObject {
         
-        private let mixpanel = MixpanelDelegateKt.createMixpanelDelegate(apiToken: "a4e433e173bfbbc0e0784fc22539b790")
+        private let mixpanel = MixpanelQualifiersKt.MIXPANEL_DELEGATE.resolve() as! MixpanelDelegate
     
         @Published var counter = 1
         
