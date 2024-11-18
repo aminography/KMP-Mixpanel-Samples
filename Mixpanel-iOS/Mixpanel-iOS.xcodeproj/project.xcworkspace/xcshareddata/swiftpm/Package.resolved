@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/YouSee/youSee-KMP-Apple-umbrellaKlib/",
       "state" : {
-        "branch" : "v0.1.1",
-        "revision" : "666438d488e0ded96f50b83c062742a2361d71f7"
+        "branch" : "v0.1.5",
+        "revision" : "ef906b9aa75dd2a99b7c19969db4da040b924ee7"
       }
     }
   ],

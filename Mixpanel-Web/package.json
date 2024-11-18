@@ -6,7 +6,7 @@
         "node": ">=14 <21"
     },
     "dependencies": {
-        "@yousee/umbrellaklib": "0.1.1",
+        "@yousee/umbrellaklib": "0.1.5",
         "react": "^18.2.0",
         "react-scripts": "5.0.1",
         "react-bootstrap": "^2.10.4",
