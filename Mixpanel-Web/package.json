@@ -6,12 +6,12 @@
         "node": ">=14 <21"
     },
     "dependencies": {
-        "@yousee/umbrellaklib": "0.1.5",
-        "react": "^18.2.0",
-        "react-scripts": "5.0.1",
-        "react-bootstrap": "^2.10.4",
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "@yousee/umbrellaklib": "^0.2.3",
         "bootstrap": "^5.3.3",
-        "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.10.4",
+        "react-scripts": "5.0.1"
     },
     "scripts": {
         "start": "react-scripts start",

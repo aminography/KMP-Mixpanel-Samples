@@ -10,6 +10,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             KoinHelperKt.start()
             MixpanelModule.shared.load()
             
+            let mixpanel = MixpanelQualifiersKt.MIXPANEL_DELEGATE.resolve()
+            mixpanel.doInit(apiToken: BuildProperties.shared.MIXPANEL_API_TOKEN_TEST)
+                
+            print("XXXXXXXXXXXXXXXXXXX  Lib Version: " + BuildProperties.shared.VERSION)
+            
             return true
     }
 }

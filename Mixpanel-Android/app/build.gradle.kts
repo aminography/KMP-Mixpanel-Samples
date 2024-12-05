@@ -67,5 +67,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation("io.insert-koin:koin-android:3.5.6")
-    implementation("dk.yousee.kmp:umbrellaklib:0.1.5")
+    implementation("dk.yousee.kmp:umbrellaklib:0.2.3")
 }
